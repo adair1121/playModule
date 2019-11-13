@@ -1,10 +1,5 @@
-var exec = require('child_process').exec;
-var path = require('path');
 
-exec(`cd ${__dirname}`)
 
-console.log(process.cwd())
+#!/bin/bash
 
-exec(`git pull`);
-
-return  "0"
+git pull
