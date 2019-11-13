@@ -1,5 +1,8 @@
-var exec = require('child_process');
+var spawn = require('child_process').spawn;
 
-exec(`git pull`);
+let proc = spawn(`git pull`);
 
-return "end"
+proc.stdout.on('data', function (data) { 
+    console.log(111);
+    return 0
+})
