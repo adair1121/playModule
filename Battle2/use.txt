@@ -1,0 +1,12 @@
+let battlemode:bm.BattleModel1 = new bm.BattleModel1();
+		let resourceVo:bm.ResourceVo = {
+			roleImg:"role_png",
+			monsters:["monster_1_png","monster_2_png","monster_3_png","monster_4_png","monster_5_png"],
+			bullet:"sprite6-sheet0_png",
+			vj_bottom:"back-sheet0_png",
+			vj_cir:"joystick-sheet0_png",
+			scoreImg:"effecy_mon-sheet0_png",
+			goldImg:"sprite8-sheet0_png",
+			boomRes:`${EFFECT}sprite10-sheet0`,
+		}
+		battlemode.initialize(resourceVo,LayerManager.UI_Main);
