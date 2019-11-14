@@ -1,3 +1,0 @@
-let resource:dm.ResourceVo = {bgSource:"img_denghui_bg_jpg",denglongIcon:"img_dengmi_content_bg_png",blockSource:"img_dengmi_cell_bg_png"};
-		dm.initialize(resource,DengMiCfg.cfgs.content);
-		dm.openModule();
